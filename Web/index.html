@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>"A.Z.M.A"></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <h1>A.Z.M.A</h1>
+    <div class="card">
+        <div style="display: flex; flex-direction: column; width: 100%;text-align: center;align-items: center;">
+            <div style="display: block;">
+                <label>Enter Number of Classes:</label>
+                <input id ="noClasses" type="number" value=5>
+            </div>
+            <button class="go" id="goBtn" >GO</button>
+        </div>
+        <hr style="color: rgba(255, 255, 255, 0.438);">
+        <label style="margin: 15px 20px; display: block;">Zoom meeting Invite:</label>
+        <div class="linksContainer" id="linksContainer" style="visibility: hidden;">
+            <div class="links"id ='links' style="width: 100%;">
+                <!-- Links iput fiels goes here!-->
+            </div>
+            <button id="startBtn" class="start">Start</button>
+        </div>
+        
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>
